@@ -15,7 +15,7 @@ pipeline {
                     disableHostKeyChecking: true,
                     installation: 'ansible2',
                     inventory: '/etc/ansible/hosts',
-                    playbook: 'install_ngnix.yml'
+                    playbook: 'install-ngnix.yml'
                 )
             }
         }
